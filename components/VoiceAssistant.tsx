@@ -4,6 +4,14 @@ import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Mic, MicOff, Volume2, VolumeX, MessageCircle, Bot, User, Trash2 } from 'lucide-react';
 
+// TypeScript declarations for Speech Recognition API
+declare global {
+  interface Window {
+    SpeechRecognition: typeof SpeechRecognition;
+    webkitSpeechRecognition: typeof SpeechRecognition;
+  }
+}
+
 interface VoiceMessage {
   id: string;
   text: string;
