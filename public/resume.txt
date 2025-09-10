@@ -1,0 +1,78 @@
+VIVEK PATIL
+Web Developer | AI Enthusiast | Data Analyst
+
+CONTACT INFORMATION
+Email: vivekpatil0088@gmail.com
+Phone: +91 63516 81472
+LinkedIn: http://www.linkedin.com/in/VivekPatil0088
+GitHub: https://github.com/Vivekpatil26072003
+
+PROFESSIONAL SUMMARY
+Enthusiastic and detail-oriented individual skilled in Python, SQL, React.js, Next.js, AI/ML, and data visualization. Passionate about creating innovative solutions and exploring the latest technologies.
+
+TECHNICAL SKILLS
+• Programming Languages: Python, JavaScript, SQL
+• Frontend: React.js, Next.js, HTML, CSS, Tailwind CSS
+• Backend: Node.js, Express.js
+• Database: MySQL, Supabase
+• AI/ML: TensorFlow, Machine Learning
+• Data Visualization: Power BI
+• Tools: Git/GitHub, VS Code
+• Cloud: Google Cloud Platform
+
+SOFT SKILLS
+• Team Bonding
+• Quick Learner
+• Adaptable
+• Problem Solving
+• Communication
+
+EXPERIENCE
+
+Web Development Intern - Future Tech Innovation
+• Developed responsive web applications using HTML, CSS, JavaScript
+• Collaborated with UI/UX team for optimal user experience
+• Implemented modern web development practices
+
+Database Intern - Bytexl
+• Managed MySQL databases and optimized SQL queries
+• Automated database operations for improved efficiency
+• Designed and maintained database schemas
+
+PROJECTS
+
+Vaani AI - Web-Based Voice Calling Assistant
+• Built AI-powered voice calling application using React.js
+• Integrated Supabase, Twilio, and Google Cloud services
+• Implemented natural language processing capabilities
+
+Weather Forecast Application
+• Developed real-time weather app with API integration
+• Created responsive UI using React.js and CSS3
+• Live demo: https://weatherofvivek.netlify.app/
+
+Portfolio Website
+• Designed modern, responsive portfolio with glassmorphism design
+• Implemented smooth animations using Framer Motion
+• Live demo: https://vivekpatil-portfolio.netlify.app
+
+Student Record Management System
+• Built comprehensive database system using MySQL
+• Automated SQL operations for student data management
+• Implemented efficient data retrieval and storage
+
+EDUCATION
+B.Tech (Information Technology)
+Parul University | 2021-2025
+CGPA: 6.61
+Location: Vadodara, Gujarat, India
+
+CERTIFICATES
+• Hackathon Participation - myOnsite Healthcare
+• Data Science - Reliance Foundation
+• Power BI Webinar - Parul University
+
+LANGUAGES
+• English (Professional)
+• Hindi (Native)
+• Gujarati (Native)
