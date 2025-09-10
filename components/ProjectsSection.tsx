@@ -49,8 +49,8 @@ export default function ProjectsSection() {
       description: 'Modern, responsive portfolio website showcasing skills and projects with smooth animations and glassmorphism design.',
       technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
       image: '/api/placeholder/400/250',
-      liveLink: null, // This is the current portfolio
-      githubLink: 'https://github.com/Vivekpatil26072003',
+      liveLink: 'https://github.com/Vivekpatil26072003/Profile',
+      githubLink: 'https://github.com/Vivekpatil26072003/Profile',
       icon: Globe,
       color: 'from-green-500 to-emerald-500',
       featured: false,
