@@ -50,41 +50,18 @@ export default function ChatbotWidget() {
     setInputText('')
     setIsLoading(true)
 
-    try {
-      const response = await fetch('/api/chat', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ message: inputText.trim() }),
-      })
-
-      if (response.ok) {
-        const data = await response.json()
-        const botMessage: Message = {
-          id: (Date.now() + 1).toString(),
-          text: data.response || "I'm sorry, I couldn't process your request.",
-          sender: 'bot',
-          timestamp: new Date(),
-          isFallback: data.isFallback,
-          note: data.note
-        }
-        setMessages(prev => [...prev, botMessage])
-        
-      } else {
-        throw new Error('Failed to get response')
-      }
-    } catch (error) {
-      const errorMessage: Message = {
+    // Simple fallback response for static deployment
+    setTimeout(() => {
+      const botMessage: Message = {
         id: (Date.now() + 1).toString(),
-        text: "I'm sorry, I'm experiencing some technical difficulties. Please try again later.",
+        text: "Hello! I'm Vivek's portfolio assistant. I can help you learn about his skills, experience, and projects. Feel free to ask questions about his background, technical expertise, or contact information!",
         sender: 'bot',
-        timestamp: new Date()
+        timestamp: new Date(),
+        isFallback: true,
       }
-      setMessages(prev => [...prev, errorMessage])
-    } finally {
+      setMessages(prev => [...prev, botMessage])
       setIsLoading(false)
-    }
+    }, 1000)
   }
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
