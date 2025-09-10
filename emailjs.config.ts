@@ -13,5 +13,6 @@ export interface EmailTemplateParams {
   subject: string
   message: string
   to_email: string
+  [key: string]: string
 }
 
