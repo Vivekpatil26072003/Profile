@@ -30,23 +30,12 @@ export default function ResumeAnalyzer() {
 
     // Simple fallback analysis for static deployment
     setTimeout(() => {
-      const mockResult = {
-        matchScore: 85,
-        strengths: [
-          "Strong technical skills in React.js, Next.js, and TypeScript",
-          "Experience with AI/ML technologies and data analysis",
-          "3+ years of professional development experience",
-          "Excellent problem-solving and communication skills"
-        ],
-        suggestions: [
-          "Highlight specific AI/ML projects in your portfolio",
-          "Emphasize your full-stack development capabilities",
-          "Showcase your data analysis and visualization skills"
-        ],
-        missingSkills: [
-          "Cloud platforms (AWS, Azure, GCP)",
-          "DevOps and CI/CD experience"
-        ]
+      const mockResult: AnalysisResult = {
+        analysis: "Based on your portfolio, you have strong technical skills in React.js, Next.js, TypeScript, and AI/ML technologies. Your 3+ years of experience in web development and data analysis make you a competitive candidate. Consider highlighting specific AI/ML projects and emphasizing your full-stack development capabilities.",
+        matchPercentage: 85,
+        timestamp: new Date().toISOString(),
+        isFallback: true,
+        note: "This is a demo analysis. For real-time analysis, the AI service would need to be configured."
       };
       setResult(mockResult);
       setIsAnalyzing(false);
