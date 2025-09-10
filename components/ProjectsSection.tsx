@@ -16,7 +16,7 @@ export default function ProjectsSection() {
       description: 'Full-stack e-commerce platform built with TypeScript, featuring modern UI/UX design, shopping cart functionality, and secure payment integration.',
       technologies: ['TypeScript', 'React.js', 'Node.js', 'Database'],
       image: null,
-      liveLink: null, // No live demo available yet
+      liveLink: 'https://ecommerce-website0011.netlify.app/',
       githubLink: 'https://github.com/Vivekpatil26072003/ecommerce-website',
       icon: Globe,
       color: 'from-blue-500 to-purple-500',
